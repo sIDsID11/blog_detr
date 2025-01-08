@@ -23,7 +23,7 @@ class DETR(nn.Module):
 In the provided DETR implementation, the backbone is a ResNet-50 model with weights pretrained on the ImageNet dataset:
 
 ```python
-        self.backbone = nn.Sequential(*list(resnet50(weights=ResNet50_Weights.DEFAULT).children())[:-2])
+self.backbone = nn.Sequential(*list(resnet50(weights=ResNet50_Weights.DEFAULT).children())[:-2])
 ```
 
 While the ResNet model family is a good starting point, you may replace it with a different backbone architecture (e.g., Vision Transformer (ViT)) or use a pretrained model better suited to your task.
