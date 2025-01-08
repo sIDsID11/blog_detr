@@ -110,3 +110,13 @@ Finally, the output of the transformer is passed through the prediction heads. A
 ```python
 return self.linear_class(h), self.linear_bbox(h).sigmoid()
 ``` 
+
+
+# Acknowledgment
+
+This blog post was supported by the [Konrad Zuse School of Excellence in Learning and Intelligent Systems (ELIZA)](https://www.tu-darmstadt.de/forschen/forschungsfelder/information_intelligence_ii/eliza/eliza.en.jsp). I am grateful for their support in advancing my research and science communication efforts.
+
+<p align="right">
+  <img src="./assets/eliza.png" height="40">
+  <img src="./assets/daad.png" height="40">
+</p>
